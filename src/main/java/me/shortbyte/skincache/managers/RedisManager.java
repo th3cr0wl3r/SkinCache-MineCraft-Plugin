@@ -23,8 +23,8 @@ public class RedisManager {
     }
     
     private void init() {
-        jedis = new Jedis("51.254.95.217", 6379, 10000);
-        jedis.auth("1234ABCD");
+        jedis = new Jedis("HOSTNAME", 6379, 10000);
+        jedis.auth("PASSWORD");
         jedis.select(0);
         jedis.connect();
         
