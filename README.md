@@ -1,2 +1,3 @@
-# SkinCache-MineCraft-Plugin
+# SkinCache-MineCraft-Spigot-Plugin
 Cache player skins with redis cache
+
